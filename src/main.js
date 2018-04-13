@@ -8,11 +8,11 @@ import './assets/css/app.css'
 
 Vue.config.productionTip = false
 
-//import Utile from './lib/utils.js'
+import Utile from './lib/utils'
 
-//Vue.use(Utile)
+Vue.use(Utile)
 
-// Vue.prototype.$custom = "这是自定义的属性"
+ Vue.prototype.$custom = "这是自定义的属性"
 /*
 let obj = {
   install: function(Vue, options){
