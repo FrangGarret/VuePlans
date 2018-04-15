@@ -5,10 +5,10 @@ import App from './App'
 import router from './router'
 
 import './assets/css/app.css'
-
+import Utile from './lib/utils'
 Vue.config.productionTip = false
 
-import Utile from './lib/utils'
+
 
 Vue.use(Utile)
 

@@ -51,6 +51,7 @@ module.exports = {
   	"padded-blocks":0,
   	"comma-spacing":0,
   	"block-spacing":0,
-  	"eqeqeq":0
+  	"eqeqeq":0,
+  	'no-multi-spaces':0
   }
 }

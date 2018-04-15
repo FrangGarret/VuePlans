@@ -3,7 +3,7 @@ import Router from 'vue-router'
 
 
 import Home from '@/components/home'
-
+import Login from '@/components/login'
 // import Layout from '@/views/layout'
 /*
 import Project from '@/views/backend/project'
@@ -40,7 +40,7 @@ let Workbench = (resolve) => {
 }
 
 
-import Login from '@/components/login'
+
 
 
 
