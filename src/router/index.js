@@ -107,7 +107,10 @@ router.beforeEach((to,from,next) => {
 			next();
 		}else{//没有登录
 			router.push({
-				path:'/login'
+				path:'/login',
+				query:{
+					redirectPoint:to.path.slice(1)
+				}
 			})
 		}
 		

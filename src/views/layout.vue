@@ -27,6 +27,21 @@
           flag: '默认无导航'
       }
     },
+    data(){
+    	return {
+    		flag : ''
+    	}
+    },
+    watch:{
+    	$route(){
+    		this.flag = flags[this.$route.path.slice(1)]
+    	}
+    },
+    beforeRouteEnter(to ,from ,next){
+    	next( (vm) =>{
+    		vm.flag = flags[to.path.slice(1)]
+    	} )
+    },
     components: {
       headerNav: Header
 

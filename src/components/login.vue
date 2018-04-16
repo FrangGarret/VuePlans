@@ -29,15 +29,15 @@
             userName: userName
         })
 				this.$router.push('/')
-//      let redirect = this.$route.query.redirect
-//
-//      if(!redirect){
-//        redirect = 'project'
-//      }
-//
-//      this.$router.push({
-//        path: '/'+redirect
-//      })
+        let redirect = this.$route.query.redirectPoint
+
+        if(!redirect){
+          redirect = 'project'
+        }
+
+        this.$router.push({
+          path: '/'+redirect
+        })
       }
     }
   }
