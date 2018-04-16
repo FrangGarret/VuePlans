@@ -24,18 +24,8 @@
   export default {
     data(){
       return {
-          flag: ''
+          flag: '默认无导航'
       }
-    },
-    watch: {
-      $route(){
-        this.flag = flags[this.$route.path.slice(1)]
-      }
-    },
-    beforeRouteEnter(to, from, next){
-      next((vm) => {
-        vm.flag = flags[to.path.slice(1)]
-      })
     },
     components: {
       headerNav: Header

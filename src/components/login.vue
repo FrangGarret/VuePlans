@@ -28,16 +28,16 @@
             login: true,
             userName: userName
         })
-
-        let redirect = this.$route.query.redirect
-
-        if(!redirect){
-          redirect = 'project'
-        }
-
-        this.$router.push({
-          path: '/'+redirect
-        })
+				this.$router.push('/')
+//      let redirect = this.$route.query.redirect
+//
+//      if(!redirect){
+//        redirect = 'project'
+//      }
+//
+//      this.$router.push({
+//        path: '/'+redirect
+//      })
       }
     }
   }

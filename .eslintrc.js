@@ -52,6 +52,7 @@ module.exports = {
   	"comma-spacing":0,
   	"block-spacing":0,
   	"eqeqeq":0,
-  	'no-multi-spaces':0
+  	'no-multi-spaces':0,
+  	"no-unused-expressions":0
   }
 }
